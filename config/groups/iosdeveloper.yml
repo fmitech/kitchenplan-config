@@ -1,0 +1,38 @@
+recipes:
+    global:
+        - dotfiles::gitconfig
+        - dotfiles::workspace
+        - applications::mysql
+    mac_os_x:
+        - applications::sublime_text_3
+        - osxdefaults::set_terminal_profile
+        - osxdefaults::enable_safari_debug_menu
+        - osxdefaults::disable_gatekeeper
+        - osxdefaults::disable_front_row
+        - osxdefaults::finder_allow_text_selection_in_quick_look
+        - osxdefaults::finder_use_column_view_in_all_finder_windows_by_default
+        - osxdefaults::finder_new_finder_windows_shows_homefolder
+        - osxdefaults::finder_disable_the_warning_before_emptying_the_trash
+        - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
+        - osxdefaults::finder_search_the_current_folder_by_default
+        - osxdefaults::finder_unhide_home
+attributes:
+    mysql_root_password: "password"
+    homebrewalt:
+        apps:
+            - git
+            - git-extras
+            - wget
+            - htop-osx
+            - imagemagick
+            - graphicsmagick
+            - redis
+            - sphinx
+            - sqlite
+        cask_apps:
+            - gitx
+            - postgres
+            - sequel-pro
+            - vmware-fusion
+            - virtualbox
+            - vagrant

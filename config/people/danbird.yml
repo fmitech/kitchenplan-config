@@ -1,0 +1,26 @@
+groups:
+    - bash
+    - developer
+recipes:
+    mac_os_x:
+        - osxdefaults::disable_natural_scrolling
+        - osxdefaults::dock_enable_spring_loading_for_all_dock_items
+        - osxdefaults::dock_make_dock_icons_of_hidden_applications_translucent
+        - osxdefaults::dock_minimize_to_application
+        - osxdefaults::dock_show_indicator_lights_for_open_applications_in_the_dock
+        - osxdefaults::dock_enable_highlight_hover_effect_for_the_grid_view_of_a_stack
+        - osxdefaults::menu_add_battery_percentage
+        - osxdefaults::menu_show_clock_with_date
+        - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
+attributes:
+    git:
+        name: Dan Bird
+    sublime_text:
+        preferences:
+            font_face: "Monaco"
+            font_size: 14
+            fade_fold_buttons: false
+            scroll_past_end: true
+    homebrewalt:
+        cask_apps:
+            - dropbox
