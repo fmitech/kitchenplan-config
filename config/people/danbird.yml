@@ -24,3 +24,4 @@ attributes:
     homebrewalt:
         cask_apps:
             - dropbox
+            - slack
