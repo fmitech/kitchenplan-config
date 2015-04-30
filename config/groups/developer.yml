@@ -30,6 +30,8 @@ attributes:
             - redis
             - sphinx
             - sqlite
+            - gpg
+            - gpg2
         cask_apps:
             - gitx
             - postgres
