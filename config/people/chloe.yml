@@ -1,0 +1,31 @@
+groups:
+    - bash
+    - developer
+recipes:
+    mac_os_x:
+        - osxdefaults::dock_automatically_hide_and_show_the_dock
+        - osxdefaults::dock_enable_spring_loading_for_all_dock_items
+        - osxdefaults::dock_make_dock_icons_of_hidden_applications_translucent
+        - osxdefaults::dock_minimize_to_application
+        - osxdefaults::dock_show_indicator_lights_for_open_applications_in_the_dock
+        - osxdefaults::dock_position_the_dock_on_the_left_side
+        - osxdefaults::dock_enable_highlight_hover_effect_for_the_grid_view_of_a_stack
+        - osxdefaults::menu_add_battery_percentage
+        - osxdefaults::menu_show_clock_with_date
+        - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
+        - osxdefaults::set_computer_name
+attributes:
+    git:
+        name: Bart Jedrocha
+        email: bart.jedrocha@gmail.com
+    osxdefaults:
+        computername: chloe-mbp13
+    sublime_text:
+        preferences:
+            font_face: "Menlo"
+            font_size: 11
+            ensure_newline_at_eof_on_save: true
+            trim_trailing_white_space_on_save: true
+    homebrewalt:
+        cask_apps:
+            - slack
