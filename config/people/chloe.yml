@@ -8,7 +8,6 @@ recipes:
         - osxdefaults::dock_make_dock_icons_of_hidden_applications_translucent
         - osxdefaults::dock_minimize_to_application
         - osxdefaults::dock_show_indicator_lights_for_open_applications_in_the_dock
-        - osxdefaults::dock_position_the_dock_on_the_left_side
         - osxdefaults::dock_enable_highlight_hover_effect_for_the_grid_view_of_a_stack
         - osxdefaults::menu_add_battery_percentage
         - osxdefaults::menu_show_clock_with_date
@@ -16,8 +15,8 @@ recipes:
         - osxdefaults::set_computer_name
 attributes:
     git:
-        name: Bart Jedrocha
-        email: bart.jedrocha@gmail.com
+        name: Chloe Reimer
+        email: chloe.reimer@gmail.com
     osxdefaults:
         computername: chloe-mbp13
     sublime_text:
@@ -26,6 +25,9 @@ attributes:
             font_size: 11
             ensure_newline_at_eof_on_save: true
             trim_trailing_white_space_on_save: true
+            line_padding_bottom: 1
+	        line_padding_top: 1
+	        caret_style: "phase"
     homebrewalt:
         cask_apps:
             - slack
