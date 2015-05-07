@@ -9,9 +9,7 @@ recipes:
         - osxdefaults::dock_make_dock_icons_of_hidden_applications_translucent
         - osxdefaults::dock_minimize_to_application
         - osxdefaults::dock_show_indicator_lights_for_open_applications_in_the_dock
-        - osxdefaults::dock_position_the_dock_on_the_left_side
         - osxdefaults::dock_enable_highlight_hover_effect_for_the_grid_view_of_a_stack
-        - osxdefaults::menu_add_battery_percentage
         - osxdefaults::menu_show_clock_with_date
         - osxdefaults::set_computer_name
 attributes:
