@@ -18,7 +18,7 @@ recipes:
         - osxdefaults::finder_search_the_current_folder_by_default
         - osxdefaults::finder_unhide_home
 attributes:
-    mysql_root_password: "password"
+    mysql_root_password: "lemonlime"
     homebrewalt:
         apps:
             - git
