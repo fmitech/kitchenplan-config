@@ -21,7 +21,6 @@ attributes:
     mysql_root_password: "lemonlime"
     homebrewalt:
         apps:
-            - git
             - git-extras
             - wget
             - htop-osx
